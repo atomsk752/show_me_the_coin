@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/logobg">
+
+
+    <ImageButton
+        android:id="@+id/n_button0"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nowon_icon2"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageButton
+        android:id="@+id/m_button0"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/moa_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageButton
+        android:id="@+id/o_button0"
+        android:layout_width="136dp"
+        android:layout_height="140dp"
+        android:background="#00000000"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onnuri_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageButton
+        android:id="@+id/e_button0"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/peace_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageButton
+        android:id="@+id/t_button0"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tongin_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <ImageButton
+        android:id="@+id/i_button0"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/info_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+</android.support.constraint.ConstraintLayout>

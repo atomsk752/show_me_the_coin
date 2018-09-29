@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@drawable/ic_list_white_24dp"
+        android:orderInCategory="0"
+        android:title="menu"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/c_first"
+                android:title="主页" />
+
+            <item
+                android:id="@+id/c_second"
+                android:title="芦原币" />
+
+            <item
+                android:id="@+id/c_third"
+                android:title="MORE" />
+
+            <item
+                android:id="@+id/c_fourth"
+                android:title="ONNURI商品券" />
+
+            <item
+                android:id="@+id/c_fifth"
+                android:title="和平币" />
+
+            <item
+                android:id="@+id/c_sixth"
+                android:title="通人币" />
+
+            <item
+                android:id="@+id/c_seventh"
+                android:title="情报" />
+
+            <item
+                android:id="@+id/c_eighth"
+                android:title="选择语言/언어선택" />
+
+        </menu>
+    </item>
+</menu>

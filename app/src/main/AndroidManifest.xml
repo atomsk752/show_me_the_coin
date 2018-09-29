@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.coin.coin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAlJ9joiCk_N5O6ogizD6m7AehxlqPTUtY" />
+
+        <activity
+            android:name=".LoadingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".nowon.N_MainActivity" />
+        <activity android:name=".nowon.N_MapActivity" />
+        <activity android:name=".nowon.N_WebActivity" />
+        <activity android:name=".nowon.N_SearchActivity" />
+        <activity android:name=".onnuri.O_MainActivity" />
+        <activity android:name=".onnuri.O_MapActivity" />
+        <activity android:name=".onnuri.O_WebActivity" />
+        <activity android:name=".onnuri.O_SearchActivity" />
+        <activity android:name=".eunpyeong.E_MainActivity" />
+        <activity android:name=".eunpyeong.E_MapActivity" />
+        <activity android:name=".eunpyeong.E_WebActivity" />
+        <activity android:name=".eunpyeong.E_SearchActivity" />
+        <activity android:name=".moa.M_MainActivity" />
+        <activity android:name=".moa.M_MapActivity" />
+        <activity android:name=".moa.M_WebActivity" />
+        <activity android:name=".moa.M_SearchActivity" />
+        <activity android:name=".tongin.T_MainActivity" />
+        <activity android:name=".tongin.T_MapActivity" />
+        <activity android:name=".tongin.T_WebActivity" />
+        <activity android:name=".tongin.T_SearchActivity" />
+        <activity android:name=".information.I_MainActivity" />
+        <activity android:name=".information.I_WebActivity" />
+        <activity android:name=".information.I_ExActivity" />
+        <activity android:name=".c_nowon.CN_MainActivity" />
+        <activity android:name=".c_nowon.CN_MapActivity" />
+        <activity android:name=".c_nowon.CN_WebActivity" />
+        <activity android:name=".c_nowon.CN_SearchActivity" />
+        <activity android:name=".c_onnuri.CO_MainActivity" />
+        <activity android:name=".c_onnuri.CO_MapActivity" />
+        <activity android:name=".c_onnuri.CO_WebActivity" />
+        <activity android:name=".c_onnuri.CO_SearchActivity" />
+        <activity android:name=".c_eunpyeong.CE_MainActivity" />
+        <activity android:name=".c_eunpyeong.CE_MapActivity" />
+        <activity android:name=".c_eunpyeong.CE_WebActivity" />
+        <activity android:name=".c_eunpyeong.CE_SearchActivity" />
+        <activity android:name=".c_moa.CM_MainActivity" />
+        <activity android:name=".c_moa.CM_MapActivity" />
+        <activity android:name=".c_moa.CM_WebActivity" />
+        <activity android:name=".c_moa.CM_SearchActivity" />
+        <activity android:name=".c_tongin.CT_MainActivity" />
+        <activity android:name=".c_tongin.CT_MapActivity" />
+        <activity android:name=".c_tongin.CT_WebActivity" />
+        <activity android:name=".c_tongin.CT_SearchActivity" />
+        <activity android:name=".c_information.CI_MainActivity" />
+        <activity android:name=".c_information.CI_ExActivity" />
+        <activity android:name=".c_information.CI_WebActivity" />
+        <activity
+            android:name=".Map.MapsActivity"
+            android:label="@string/title_activity_maps2" />
+        <activity
+            android:name=".map.NowonMapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".SubMainActivity" />
+        <activity android:name=".C_MainActivity" >
+      </activity>
+    </application>
+
+</manifest>

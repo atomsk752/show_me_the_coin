@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".tongin.T_SearchActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/h_btn"
+            android:layout_width="450px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="0sp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/homeicon" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="추천 검색어"
+        android:textColor="#ff8c00"
+        android:background="#000000"
+        android:textSize="40sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/t_imageButton1"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongin_tag5"
+                android:background="#00000000"
+                app:srcCompat="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/t_imageButton2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongin_tag1"
+                android:background="#00000000"
+                app:srcCompat="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/t_imageButton3"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongin_tag2"
+                android:background="#00000000"
+                app:srcCompat="@color/colorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#000000"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/t_imageButton4"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongin_tag4"
+                android:background="#00000000"
+                app:srcCompat="@color/colorPrimary" />
+
+            <ImageButton
+                android:id="@+id/t_imageButton5"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tongin_tag3"
+                android:background="#00000000"
+                app:srcCompat="@color/colorPrimary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#000000">
+
+            <EditText
+                android:id="@+id/Edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search.."
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#ff8c00"/>
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="431dp"
+                android:textColor="#ff8c00"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

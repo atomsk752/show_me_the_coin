@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tongin.T_MapActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimaryDark">
+
+        <!-- 툴바 이미지 버튼-->
+        <ImageButton
+            android:id="@+id/h_btn"
+            android:layout_width="450px"
+            android:layout_height="150px"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="0sp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/homeicon" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        >
+        <fragment
+            tools:context=".tongin.T_MapActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/current_location"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/logobg">
+
+
+    <ImageButton
+        android:id="@+id/cn_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c_nowon_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageButton
+        android:id="@+id/cm_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c_moa_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageButton
+        android:id="@+id/co_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c_onuri_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageButton
+        android:id="@+id/ce_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c_peace_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageButton
+        android:id="@+id/ct_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/c_tongin_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <ImageButton
+        android:id="@+id/ci_button0"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/info_icon"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+</android.support.constraint.ConstraintLayout>
