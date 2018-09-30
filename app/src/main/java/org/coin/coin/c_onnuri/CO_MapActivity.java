@@ -47,6 +47,7 @@ package org.coin.coin.c_onnuri;
         import org.coin.coin.eunpyeong.E_MainActivity;
         import org.coin.coin.information.I_MainActivity;
         import org.coin.coin.map_infowindow.Infowindow;
+        import org.coin.coin.map_infowindow.Infowindow_Onnuri;
         import org.coin.coin.moa.M_MainActivity;
         import org.coin.coin.nowon.N_MainActivity;
         import org.coin.coin.onnuri.O_MainActivity;
@@ -119,7 +120,7 @@ public class CO_MapActivity extends AppCompatActivity implements OnMapReadyCallb
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        Infowindow infowindow = new Infowindow(this);
+        Infowindow_Onnuri infowindow = new Infowindow_Onnuri(this);
         mMap.setInfoWindowAdapter(infowindow);
 
         //지역화폐 가게 위경도 넣기
