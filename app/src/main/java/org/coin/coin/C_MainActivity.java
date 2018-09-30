@@ -1,8 +1,11 @@
 package org.coin.coin;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -26,6 +29,8 @@ public class C_MainActivity extends Activity {
         ImageButton ce_btn0 = (ImageButton) findViewById(R.id.ce_button0);
         ImageButton ct_btn0 = (ImageButton) findViewById(R.id.ct_button0);
         ImageButton ci_btn0 = (ImageButton) findViewById(R.id.ci_button0);
+
+        setPermission();
 
         cn_btn0.setOnClickListener(
                 new Button.OnClickListener(){
@@ -81,5 +86,17 @@ public class C_MainActivity extends Activity {
 
                 }
         );
+    }
+
+    private void setPermission(){
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+                ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+            ActivityCompat.requestPermissions(this,
+                    new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
+            return;
+        }
     }
 }
